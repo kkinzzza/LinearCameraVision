@@ -1,1 +1,1 @@
-# LinearCameraVision
+# Linear Camera Vision System
