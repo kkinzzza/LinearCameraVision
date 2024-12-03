@@ -82,10 +82,6 @@ def process_frames(queue1, queue2, running_event):
                 if stitched_frame is None:
                     stitched_frame = frame
                 else:
-                    # Проверка совместимости размеров
-                    if stitched_frame.shape[0] != frame.shape[0]:
-                        frame = cv2.resize(frame, (frame.shape[1], stitched_frame.shape[0]))
-                    
                     # # Вывод последних 20 кадров
                     # if stitched_frame.shape[0] == num_frames * 8:
                     #     stitched_frame = np.concatenate((stitched_frame, frame), axis=1)
