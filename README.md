@@ -58,3 +58,14 @@ By empirical selection of exposure parameters this result was got after grabbing
 ![result (1)](https://github.com/user-attachments/assets/163a3747-369e-4d29-87e5-5b82969645b4)
 
 In the result image center we can see the object similar to the chocolate bar accurate to the final form.
+
+## Multiprocessing Usage
+
+The file `grabber_multi_test.py` is a zero version of code for grabbing using multiprocessing. The idea is that the 1st Process is getting frames from linear camera and putting them to the queue (only frame or in format `dict({frame_id: frame})` – as you wish), and 2nd Process is uploading frames from the queue and concatenate them with previous ones at the same time.
+
+This method will allow to get up to 1200 fps from linear camera with exposure settings for enough bright image, which will be enough to make images of fast-moving objects.
+
+The result of zero version code is below:
+
+![test_result](https://github.com/user-attachments/assets/8bc34766-bc29-49df-8d77-4a8578ab1588)
+
