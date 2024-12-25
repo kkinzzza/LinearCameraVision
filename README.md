@@ -67,5 +67,6 @@ This method will allow to get up to 1200 fps from linear camera with exposure se
 
 The result of zero version code is below:
 
-![test_result](https://github.com/user-attachments/assets/8bc34766-bc29-49df-8d77-4a8578ab1588)
+<img src="https://github.com/user-attachments/assets/dc887d9e-4b14-4cc6-bef9-4592fddae806" width=700 />
+
 
